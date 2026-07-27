@@ -1,0 +1,114 @@
+/* Remove default spacing */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+/* Navigation */
+
+nav{
+
+    position:fixed;
+    top:0;
+    width:100%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 60px;
+
+    background:transparent;
+
+    transition:0.5s;
+
+}
+
+/* Scroll color */
+
+nav.scrolled{
+
+    background:#0d6efd;
+
+}
+
+/* Logo */
+
+nav h2{
+
+    color:white;
+
+}
+
+/* Menu */
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+}
+
+/* Menu items */
+
+nav ul li{
+
+    margin-left:25px;
+
+}
+
+/* Links */
+
+nav ul li a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:18px;
+
+    transition:0.3s;
+
+}
+
+/* Hover effect */
+
+nav ul li a:hover{
+
+    color:yellow;
+
+}
+
+/* Hero */
+
+.hero{
+
+    height:100vh;
+
+    background:linear-gradient(to right,#141e30,#243b55);
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* Content */
+
+.content{
+
+    padding:100px;
+
+    line-height:2;
+
+}
